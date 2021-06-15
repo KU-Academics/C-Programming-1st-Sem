@@ -5,7 +5,12 @@ int main()
 	int x, i, n, num, rem, fact, value = 0;
 	printf("enter the number you wish to check: ");
 	scanf("%d", &num);
+	if (num == 0)
+	{
+		printf("It is not a strong number");
+	}
 	n = num;
+
 	for (x = n; x > 0; x /= 10)
 	{
 		rem = n % 10;
