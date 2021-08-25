@@ -16,6 +16,6 @@ int main()
 	}
 	else
 	{
-		printf("the factorial of %d is ∞.", n);
+		printf("the factorial of %d is ∞.\n", n);
 	}
 }

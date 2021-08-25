@@ -15,28 +15,27 @@ int main()
 	{
 		char grade[500] = "invalid";
 	}
-	else if (marks>= 90 && marks <= 100)
+	else if (marks >= 90 && marks <= 100)
 	{
 		char grade[500] = "A";
 	}
-	else if (marks>= 75 && marks<90)
+	else if (marks >= 75 && marks < 90)
 	{
 		char grade[500] = "B";
 	}
-	else if (marks>=65 && marks<80)
+	else if (marks >= 65 && marks < 80)
 	{
 		char grade[500] = "C";
 	}
-	else if (marks>=50 && marks<65)
+	else if (marks >= 50 && marks < 65)
 	{
 		char grade[500] = "D";
 	}
-	else{
+	else
+	{
 		char grade[500] = "F";
 	}
-	printf("And the grade you obtained is %s\n",grade);
+	printf("And the grade you obtained is %s\n", grade);
 
 	return 0;
-
-
 }
